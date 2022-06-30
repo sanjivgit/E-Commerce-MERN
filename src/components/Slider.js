@@ -87,8 +87,6 @@ function Slider() {
     }
   };
 
-  console.log("ljldkfjlks", slideIndex);
-
   return (
     <Container>
       <Arrow direction="left" onClick={() => handleClick("left")}>
