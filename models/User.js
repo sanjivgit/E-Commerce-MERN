@@ -18,10 +18,10 @@ const userSchema = new mongoose.Schema(
     },
     isAdmin: {
       type: Boolean,
-      default: false,
+      default: true,
     },
   },
-  { timestanps: true }
+  { timestamps: true }
 );
 
 module.exports = mongoose.model("users", userSchema);
